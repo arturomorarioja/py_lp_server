@@ -78,4 +78,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     print(f'Long-polling server running on http://localhost:{args.port}')
-    app.run(host='localhost', port=args.port, debug=False)
+    app.run(host='0.0.0.0', port=args.port, debug=False)

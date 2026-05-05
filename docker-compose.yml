@@ -1,0 +1,6 @@
+services:
+  long-polling-server:
+    build: .
+    container_name: long-polling-server
+    ports:
+      - "8080:8080"
